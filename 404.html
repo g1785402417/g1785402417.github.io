@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>页面未找到｜郭润琪</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <style>
+    :root {
+      --navy: #0d2438;
+      --paper: #f5f2ea;
+      --gold: #b3905b;
+      --gold-light: #d8c19b;
+      --white: #fbfaf6;
+      --serif: "Noto Serif SC", "Songti SC", STSong, SimSun, Georgia, serif;
+      --sans: "Noto Sans SC", "Microsoft YaHei", "PingFang SC", -apple-system, "Segoe UI", sans-serif;
+      --mono: Consolas, "SFMono-Regular", Menlo, monospace;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+      background:
+        radial-gradient(circle at 80% 20%, rgba(179, 144, 91, 0.16), transparent 30%),
+        var(--navy);
+      color: var(--white);
+      font-family: var(--sans);
+    }
+    main {
+      width: min(760px, 100%);
+      padding: clamp(32px, 7vw, 72px);
+      border: 1px solid rgba(216, 193, 155, 0.3);
+      position: relative;
+    }
+    main::before {
+      content: "";
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      width: 80px;
+      height: 2px;
+      background: var(--gold);
+    }
+    p.label {
+      margin: 0 0 26px;
+      color: var(--gold-light);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.16em;
+    }
+    h1 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2.4rem, 7vw, 5rem);
+      font-weight: 500;
+      letter-spacing: -0.04em;
+      line-height: 1.15;
+    }
+    h1 span { color: var(--gold-light); }
+    p.copy {
+      max-width: 520px;
+      margin: 24px 0 0;
+      color: rgba(251, 250, 246, 0.65);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+    p.copy .en { display: block; margin-top: 5px; font-size: 12px; color: rgba(251, 250, 246, 0.45); }
+    a {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 48px;
+      margin-top: 34px;
+      padding: 0 22px;
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 13px;
+      text-decoration: none;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    a:hover { background: var(--gold); color: var(--navy); }
+    footer {
+      margin-top: 54px;
+      padding-top: 16px;
+      border-top: 1px solid rgba(255, 255, 255, 0.13);
+      color: rgba(251, 250, 246, 0.32);
+      font-family: var(--mono);
+      font-size: 9px;
+      letter-spacing: 0.06em;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <p class="label">404 / PAGE NOT FOUND</p>
+    <h1>这一页，<br>暂时<span>不存在</span>。</h1>
+    <p class="copy">
+      你访问的页面可能已被移动或删除。请返回首页继续浏览。
+      <span class="en">The page you are looking for may have moved or no longer exists.</span>
+    </p>
+    <a href="/">
+      返回首页 / Back to home
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+        <path d="M5 12h14M13 6l6 6-6 6"/>
+      </svg>
+    </a>
+    <footer>© 2026 郭润琪 · RUNQI GUO</footer>
+  </main>
+</body>
+</html>
