@@ -1495,6 +1495,7 @@ body.menu-open .menu-toggle span:last-child {
   font-weight: 500;
   letter-spacing: -0.03em;
   line-height: 1.15;
+  white-space: nowrap;
 }
 
 .metric-value > .metric-unit {
@@ -1503,6 +1504,7 @@ body.menu-open .menu-toggle span:last-child {
   font-size: 0.38em;
   font-weight: 400;
   letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .nowrap {
@@ -2577,6 +2579,10 @@ main[id] {
 
   .hero-title {
     font-size: 2.05rem;
+  }
+
+  .metric-value {
+    font-size: 1.7rem;
   }
 
   .hero-tag {
