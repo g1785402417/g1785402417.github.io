@@ -18,9 +18,16 @@
 
 - 单页响应式设计，适配桌面与移动端
 - 中文为默认语言，支持中英文切换，语言偏好保存在本地
-- 无外部字体、框架或 CDN 依赖，所有资源随站点一起发布
-- 使用系统字体与内联 SVG 图标，减少资源加载失败风险
+- 使用暖色视觉系统、原创排版、内联 SVG 图标与可动效的 3D 数字形象
+- 字体（Noto Serif SC、Noto Sans SC、Fraunces）已作本地子集化并随站点发布，无外部字体或 CDN 依赖
 - 支持键盘导航、跳过链接与减少动态效果偏好
+- 支持首屏入场、滚动显现、数字滚动、人物浮动与章节进度等动效
+
+## 素材与许可
+
+- 3D 数字形象基于 Microsoft Fluent Emoji 的 “Man raising hand” 素材修改，原项目采用 MIT License；许可和修改说明见 [`assets/avatar/`](assets/avatar/)。
+- 字体采用 SIL Open Font License 1.1，许可文本见 [`assets/fonts/OFL.txt`](assets/fonts/OFL.txt)。
+- 页面布局、配色和动效为本项目原创实现。
 
 ## 隐私说明
 
